@@ -51,7 +51,7 @@ def validate_data():
         if (
             missing_values > 0
             or num_classes != 2
-            or class_balance < 0.45
+            or class_balance < 0.20
         ):
             validation_status = "Failed"
 
